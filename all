@@ -1,0 +1,5 @@
+#!/bin/sh
+
+rm -rf packages/
+
+make clean package SILEO_PLATFORM=iphoneos-arm
