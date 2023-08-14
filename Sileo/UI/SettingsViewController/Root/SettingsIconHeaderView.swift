@@ -48,7 +48,7 @@ class SettingsIconHeaderView: UIView, SettingsHeaderViewDisplayable {
         if let imageName = UIApplication.shared.alternateIconName {
             iconView.image = AltIconTableViewController.altImage(imageName)
         } else {
-            iconView.image = AltIconTableViewController.altImage("AppIcon60x60")
+            iconView.image = AltIconTableViewController.altImage("SaiGon")
         }
     }
     

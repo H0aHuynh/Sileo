@@ -129,7 +129,8 @@ export PRODUCT_BUNDLE_IDENTIFIER = "sileo"
 SILEO_ID   = sileo
 endif
 export DISPLAY_NAME = "Sileo"
-ICON = https:\/\/getsileo.app\/img\/icon.png
+
+ICON = https:\/\/h0ahuynh.github.io\/H0ahuynh\/iconslieosg.png
 SILEO_NAME = Sileo
 SILEO_APP  = Sileo.app
 SILEO_VERSION = $$(/usr/libexec/PlistBuddy -c "Print :CFBundleShortVersionString" $(SILEO_STAGE_DIR)/$(PREFIX)/Applications/$(SILEO_APP)/$(CONTENTS)Info.plist)
@@ -145,7 +146,7 @@ export PRODUCT_BUNDLE_IDENTIFIER = "org.coolstar.SileoBeta"
 SILEO_ID   = org.coolstar.sileobeta
 SILEO_APP  = Sileo-Beta.app
 endif
-ICON = https:\/\/getsileo.app\/img\/icon.png
+ICON = https:\/\/h0ahuynh.github.io\/H0ahuynh\/iconslieosg.png
 export DISPLAY_NAME = "Sileo Beta"
 SILEO_NAME = Sileo (Beta Channel)
 SILEO_VERSION = $$(/usr/libexec/PlistBuddy -c "Print :CFBundleShortVersionString" $(SILEO_STAGE_DIR)/$(PREFIX)/Applications/$(SILEO_APP)/$(CONTENTS)Info.plist)+$$(git show -s --format=%cd --date=short HEAD | sed s/-//g).$$(git show -s --format=%cd --date=unix HEAD | sed s/-//g).$$(git rev-parse --short=7 HEAD)

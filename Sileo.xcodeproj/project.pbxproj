@@ -76,6 +76,9 @@
 		49CE7CE12607F9A400A20711 /* CoolBreeze~ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49CE7CCD2607F9A400A20711 /* CoolBreeze~ipad@2x.png */; platformFilter = ios; };
 		49FB3891266074B40029CAFF /* SileoRootWrapper.bundle in Embed PlugIns */ = {isa = PBXBuildFile; fileRef = 49FB388B2660745F0029CAFF /* SileoRootWrapper.bundle */; platformFilter = maccatalyst; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		49FB3894266074B90029CAFF /* SileoRootWrapper.bundle in Embed PlugIns */ = {isa = PBXBuildFile; fileRef = 49FB388B2660745F0029CAFF /* SileoRootWrapper.bundle */; platformFilter = maccatalyst; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4F01C7262A87F4BB002D96F3 /* AppIcon60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F01C7252A87F4BB002D96F3 /* AppIcon60x60.png */; };
+		4F01C7272A87F4BB002D96F3 /* AppIcon60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F01C7252A87F4BB002D96F3 /* AppIcon60x60.png */; };
+		4F01C7282A87F4BB002D96F3 /* AppIcon60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F01C7252A87F4BB002D96F3 /* AppIcon60x60.png */; };
 		4F19E04F2A826BB20091568C /* SaiGon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F19E04B2A826BB20091568C /* SaiGon@2x.png */; };
 		4F19E0502A826BB20091568C /* SaiGon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F19E04B2A826BB20091568C /* SaiGon@2x.png */; };
 		4F19E0512A826BB20091568C /* SaiGon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F19E04B2A826BB20091568C /* SaiGon@2x.png */; };
@@ -1302,6 +1305,7 @@
 		49CE7CCD2607F9A400A20711 /* CoolBreeze~ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CoolBreeze~ipad@2x.png"; sourceTree = "<group>"; };
 		49FB388B2660745F0029CAFF /* SileoRootWrapper.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SileoRootWrapper.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		49FB388D2660745F0029CAFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F01C7252A87F4BB002D96F3 /* AppIcon60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon60x60.png; sourceTree = "<group>"; };
 		4F19E04B2A826BB20091568C /* SaiGon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SaiGon@2x.png"; sourceTree = "<group>"; };
 		4F19E04C2A826BB20091568C /* SaiGon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SaiGon@3x.png"; sourceTree = "<group>"; };
 		4F19E04D2A826BB20091568C /* SaiGon~ipad@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SaiGon~ipad@3x.png"; sourceTree = "<group>"; };
@@ -2039,6 +2043,7 @@
 				4F19E04C2A826BB20091568C /* SaiGon@3x.png */,
 				4F19E04E2A826BB20091568C /* SaiGon~ipad@2x.png */,
 				4F19E04D2A826BB20091568C /* SaiGon~ipad@3x.png */,
+				4F01C7252A87F4BB002D96F3 /* AppIcon60x60.png */,
 			);
 			path = SaiGon;
 			sourceTree = "<group>";
@@ -3659,6 +3664,7 @@
 				E128193926BBFAA500D2553B /* CoolBreeze@3x.png in Resources */,
 				E128193A26BBFAA500D2553B /* Taurine@3x.png in Resources */,
 				E128193B26BBFAA500D2553B /* MangoCrazy~ipad@3x.png in Resources */,
+				4F01C7282A87F4BB002D96F3 /* AppIcon60x60.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3676,6 +3682,7 @@
 				E1A2D119281F30C70006411B /* BlueLemonade~ipad@2x.png in Resources */,
 				E1BB50E0260E913A00F870B8 /* OG@2x.png in Resources */,
 				F139D13B22EA9209007F5C0D /* Assets.xcassets in Resources */,
+				4F01C7272A87F4BB002D96F3 /* AppIcon60x60.png in Resources */,
 				E1A2D13A281F30EE0006411B /* SugarFree@3x.png in Resources */,
 				E1A2D131281F30DE0006411B /* OceanicBlue@2x.png in Resources */,
 				F139D14122EA9209007F5C0D /* Categories.strings in Resources */,
@@ -3906,6 +3913,7 @@
 				E1138C092A32536800887BFE /* Cookie@3x.png in Resources */,
 				F1B99F0720DBE64700374C27 /* PackageListViewController.xib in Resources */,
 				493B23EB26098132007D605F /* OceanicBlue@2x.png in Resources */,
+				4F01C7262A87F4BB002D96F3 /* AppIcon60x60.png in Resources */,
 				E1DC860F26697CD600B3DC42 /* Pride~ipad@2x.png in Resources */,
 				E155D4A228CE5A1900AC7AE0 /* Odyssey@2x.png in Resources */,
 				49CE7CCE2607F9A400A20711 /* BlueLemonade~ipad@2x.png in Resources */,
@@ -5214,7 +5222,7 @@
 					"$(PROJECT_DIR)/Deps/libzstd",
 					"$(PROJECT_DIR)/Deps/liblz4",
 				);
-				MARKETING_VERSION = 3.3;
+				MARKETING_VERSION = 3.4;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.amywhile.sileo;
@@ -5664,7 +5672,7 @@
 					"$(PROJECT_DIR)/Deps/libzstd",
 					"$(PROJECT_DIR)/Deps/liblz4",
 				);
-				MARKETING_VERSION = 3.3;
+				MARKETING_VERSION = 3.4;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.amywhile.sileo;
@@ -5727,7 +5735,7 @@
 					"$(PROJECT_DIR)/Deps/libzstd",
 					"$(PROJECT_DIR)/Deps/liblz4",
 				);
-				MARKETING_VERSION = 3.3;
+				MARKETING_VERSION = 3.4;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.amywhile.sileo;

@@ -79,7 +79,6 @@ final class RepoManager {
         if !UserDefaults.standard.bool(forKey: "Sileo.DefaultRepo") {
             UserDefaults.standard.set(true, forKey: "Sileo.DefaultRepo")
             addRepos(with: [
-                URL(string: "http://apt.thebigboss.org/repofiles/cydia/")!,
                 URL(string: "https://34306.github.io")!,
                 URL(string: "https://repov4.kenhtao.net")!,
                 URL(string: "https://support-jailbreak.github.io")!,
